@@ -17,13 +17,8 @@ public class Author {
         return firstName;
     }
 
-
-
-//    public firstName() {
-//        return this.firstName();
+    @Override
+    public String toString() {
+        return firstName + " " + surName;
+    }
 }
-
-//    public surName() {
-//        return this.surName();
-
-
