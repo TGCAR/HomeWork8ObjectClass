@@ -29,3 +29,4 @@ bin/
 .DS_Store
 /.idea/
 /HomeWork8ObjectClass.iml
+/src/mainTest.java
