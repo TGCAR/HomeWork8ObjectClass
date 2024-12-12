@@ -1,20 +1,23 @@
 public class Author {
-    private final String surName;
-    private final String firstName;
+    private String surName;
+    private String firstName;
 
-
+    //Конструктор
     public Author(String surName, String firstName) {
-        this.surName = firstName;
-        this.firstName = surName;
+        this.surName = surName;
+        this.firstName = firstName;
     }
 
+    //Геттеры и Сеттеры
     public String getSurName() {
-        return this.surName;
+        return surName;
     }
 
     public String getFirstName() {
-        return this.firstName;
+        return firstName;
     }
+
+
 
 //    public firstName() {
 //        return this.firstName();
